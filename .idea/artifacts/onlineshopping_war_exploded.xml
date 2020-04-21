@@ -1,0 +1,103 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="onlineshopping:war exploded">
+    <output-path>$PROJECT_DIR$/target/onlineshopping</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>onlineshopping</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="onlineshopping" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="onlineshopping-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="onlineshopping" />
+          </element>
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.2" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.3.8.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.23.1-GA" />
+          <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.9.4" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss:jandex:2.0.5.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.3.4" />
+          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
+          <element id="library" level="project" name="Maven: org.dom4j:dom4j:2.1.1" />
+          <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.198" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework.webflow:spring-webflow:2.4.4.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: opensymphony:ognl:2.6.11" />
+          <element id="library" level="project" name="Maven: org.springframework.webflow:spring-binding:2.4.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.webflow:spring-js:2.4.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.webflow:spring-js-resources:2.4.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.8.0-beta1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.8.0-beta1" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.10.Final" />
+          <element id="library" level="project" name="Maven: org.apache.cassandra:cassandra-all:0.8.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:r08" />
+          <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.2" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
+          <element id="library" level="project" name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.1" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr:3.2" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.2" />
+          <element id="library" level="project" name="Maven: org.antlr:stringtemplate:3.2" />
+          <element id="library" level="project" name="Maven: org.apache.cassandra.deps:avro:1.4.0-cassandra-1" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty:6.1.22" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty-util:6.1.22" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:servlet-api:2.5-20081211" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.4.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.4.0" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
+          <element id="library" level="project" name="Maven: com.github.stephenc.high-scale-lib:high-scale-lib:1.1.2" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.6" />
+          <element id="library" level="project" name="Maven: org.apache.thrift:libthrift:0.6.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.cassandra:cassandra-thrift:0.8.1" />
+          <element id="library" level="project" name="Maven: com.github.stephenc:jamm:0.2.2" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.testng:testng:7.0.0-beta3" />
+          <element id="library" level="project" name="Maven: com.beust:jcommander:1.72" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-test:2.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.1.2.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/onlineshopping/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="onlineshopping/web/Web" />
+    </root>
+  </artifact>
+</component>
